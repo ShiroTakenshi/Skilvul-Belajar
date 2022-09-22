@@ -17,7 +17,7 @@ namespace Kalkulator
                 Console.WriteLine("(3.)  Perkalian   ");
                 Console.WriteLine("(4.)  Pembagian   ");
 
-                
+
                 int nilai;
                 Console.Write("Input Nilai Awal : ");
                 int input1 = Convert.ToInt32(Console.ReadLine());
@@ -44,7 +44,6 @@ namespace Kalkulator
                 Console.ReadLine();
                 Console.Write("Ingin Lanjutkan ? (y)");
                 proses = Console.ReadLine();
-
             }
             while (proses == "y" || proses == "Y");
         }
